@@ -1,6 +1,6 @@
 export class AdminRoomsPageLocators {
   static readonly BODY = 'body';
-  static readonly CREATE_BUTTON = 'button:has-text("Create")';
+  static readonly CREATE_BUTTON = '#createRoom';
   static readonly LOGOUT_BUTTON = 'button:has-text("Logout")';
   static readonly ROOM_LISTING = '[data-testid="roomlisting"]';
   static readonly ROOM_NUMBER_LABEL = 'text=Room #';
