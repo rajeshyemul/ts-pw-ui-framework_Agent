@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "playwright": {
+      "command": "/Users/rajesh.yemul/.nvm/versions/node/v22.13.0/bin/npx",
+      "args": ["@playwright/mcp@latest"],
+      "type": "stdio",
+      "env": {
+        "PATH": "/Users/rajesh.yemul/.nvm/versions/node/v22.13.0/bin:${env:PATH}"
+      }
+    }
+  }
+}
